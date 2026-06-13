@@ -1,0 +1,83 @@
+user:
+  outputs:
+    default:
+      keyfile_json:
+        auth_provider_x509_cert_url: https://www.googleapis.com/oauth2/v1/certs
+        auth_uri: https://accounts.google.com/o/oauth2/auth
+        client_email: zoomcamp-kestra@kestra-sandbox-497310.iam.gserviceaccount.com
+        client_id: '116523697225517843819'
+        client_x509_cert_url: https://www.googleapis.com/robot/v1/metadata/x509/zoomcamp-kestra%40kestra-sandbox-497310.iam.gserviceaccount.com
+        private_key: '-----BEGIN PRIVATE KEY-----
+
+          MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDxTLhx+CE2pSTn
+
+          M3RWRALIp7ww/9klRF51EAK01zCzsNQavxsmTZn0rUaBugpZglevc17NZD0bHM8z
+
+          EIRGqUUG3K6grFSFtYaCQvpI0KrZG5hUUSVKdDa+Djn8kwirsPiWc8DocxxyV9Yo
+
+          sc74uaxihD9BiMuM3Tad2ZAGvnJdQf8BbEPoGTAE9FZYkcPVQBz7WnYgo1SVfeZK
+
+          X1SEyyqwnualZBh0Y5P1aKDFBVe2UUKkpPc12uRahRUEoi09LBNJ58PJf/MZNYyG
+
+          Flh9kEJJ9WmylENIcxvKp1EiCyk4IfmgVhUfiLHYF4npB7vAqJWE90L4WDZgdxTX
+
+          J9LtlVWdAgMBAAECggEAWa0Njy2MCmbthA8XWUgFUNUll4A+Dx+NiyvcFaEztFQv
+
+          P5FuYZnNcaVD4splNka+l7HktahfHUhjqLKmtiwKPzacn5HsB5Ui3B5QLed+1xju
+
+          T8eoeDcgcRmQa1Gpk0U93Yw/USQWmlgSeyU5qi425pYHfC9+lmdP+PH2GMuGbSl0
+
+          /+EwKLB/06/2ub+oZm2Y5W8+6uyHHRsiRmxt8pXfzbMnd20e5/rPWmYzaXhnLjB7
+
+          lAaGjpgfxbcKs77vjsMplzC5mrjYINheKc8SXslGF+NQfczx1zYrA9HXOKc+9MDq
+
+          VUiaUN+WwlJombOTTOiLqvKuZbKIHQ5f0gn0yPY98QKBgQD7gW18Ucv0nMLhhx21
+
+          +hvzflNm0DOk9ZGrSdvDFhb0JK7SmwBdrUMzf0Ux1wBby/+b5wURLf8Q9+fsKqve
+
+          WmZ2AlripcxAvWvL6yhHsqOkvS+WwC9Oufgm8FG2EaS5FVqy6JwsySp7CjesZg8K
+
+          FylJr++gPP7+MftvhsPNYcSliwKBgQD1nJqBsR5DusSU4Qa4PAeJsWllDyY3J3zo
+
+          M/I4sKEZtafLR24MNCBB97Lddt8YsAJBaWPrBaTvSE6z8Udf2nX7Lcuu8iZGqyj9
+
+          gK6e6632Sl88KziwERufGzKi0NjiHVBuIYSEYrVqSW05qzRtNgG1J77t29aH24GF
+
+          xwR4YIVmdwKBgQC68BC4/vNh9cLEbvGeeTCdY6AKI2a/jeegMV2vO5QEE9/9mkhD
+
+          WK1Cca60xOH3WUG8V5JkmpOjwSAZYf4tX3QY8tcq76FJ3YFqKHfgEt+fax8cJe0D
+
+          zyariqSxd5vAFic8I7kxcLSqj4WiFpnHHkAKDUNHDw9ZUT1aQAj5d1n60QKBgHrN
+
+          0nMGHBvBRokp+jIj0aEHE6tz56esFsgDMRknN2WjbkI1dNClP3u8XbJdvS6a0oXi
+
+          LBNWvyDlBnTyLr2+fT8Zpr3SVVEAQ3582NKdBF4g0X1EHxPpeeYTsz21Lrvf7Fck
+
+          ax3GPO7nx7UN5Si12CS7urszMBC9sAUzfQizOgABAoGBAOr9+QA0g05sq2QL7za+
+
+          vNeLPnYYNlOd4RjA5Ao6u+QTcW9ffKEIu5k0cSr6D0hAkCanCMISorXqnPAi2+zn
+
+          AyVy+9tA3NGtl8JL7CnDj/LQZKIs9soSb3UzbGqsvUxBnOSYWH4AJ6L9BDn0Ln5e
+
+          ZEDN0/2ThKJNwOx9MoWTDh6K
+
+          -----END PRIVATE KEY-----
+
+          '
+        private_key_id: f6fead8baaa69d471bf848e9d1954644ee2e6952
+        project_id: kestra-sandbox-497310
+        token_uri: https://oauth2.googleapis.com/token
+        type: service_account
+      location: europe-west2
+      method: service-account-json
+      project: kestra-sandbox-497310
+      schema: dbt_aahmed
+      scopes:
+      - https://www.googleapis.com/auth/bigquery
+      - https://www.googleapis.com/auth/cloud-platform
+      - https://www.googleapis.com/auth/drive
+      - https://www.googleapis.com/auth/userinfo.email
+      target_name: default
+      threads: 4
+      type: bigquery
+  target: default

@@ -47,7 +47,7 @@ models:
 
       - name: total_monthly_trips
         data_type: int64
-        description: ""
+        description: "monthly trips"
 
       - name: avg_montly_passenger_count
         data_type: float64

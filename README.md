@@ -1,3 +1,3 @@
 # data-engineering-zoomcamp
 
-This repository contains code, workflows, and project work developed as part of my Data Engineering Zoomcamp journey, with a focus on data pipelines, orchestration, and practical engineering concepts.
+This branch contains the dbt project made on dbt cloud to push transformations to a dataset in BigQuery called dim_monthly_zone_revenue. It uses the green and yellow taxi tables along with zone information to compute total revenue earned monthly. 

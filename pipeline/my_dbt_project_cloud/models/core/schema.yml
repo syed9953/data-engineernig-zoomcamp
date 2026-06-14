@@ -15,7 +15,7 @@ models:
 
       - name: service_type
         data_type: string
-        description: ""
+        description: "This is the service type"
 
       - name: revenue_monthly_fare
         data_type: numeric
